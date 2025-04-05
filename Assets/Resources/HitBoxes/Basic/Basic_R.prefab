@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4430192850917587048
+--- !u!1 &4025886949732639437
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 9199349638820342327}
+  - component: {fileID: 3457473120800499213}
   m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -16,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &9199349638820342327
+--- !u!4 &3457473120800499213
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4430192850917587048}
+  m_GameObject: {fileID: 4025886949732639437}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.41, z: 1.56}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.543, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 34421440711355139}
+  m_Father: {fileID: 4777268371061565347}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8791580168348741197
+--- !u!1 &5908785546678674856
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,55 +39,55 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 34421440711355139}
-  - component: {fileID: 2072185349234563312}
+  - component: {fileID: 4777268371061565347}
+  - component: {fileID: 371545274361403912}
   m_Layer: 6
-  m_Name: Basic_Q
-  m_TagString: PlayerHitBox
+  m_Name: Basic_R
+  m_TagString: PlayerHitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &34421440711355139
+--- !u!4 &4777268371061565347
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791580168348741197}
+  m_GameObject: {fileID: 5908785546678674856}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 9199349638820342327}
+  - {fileID: 3457473120800499213}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2072185349234563312
+--- !u!114 &371545274361403912
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8791580168348741197}
+  m_GameObject: {fileID: 5908785546678674856}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9c855a064373914b8d3c6a9422ab230, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  duration: 0.1
+  duration: 0.2
   followCaster: 0
   startDelay: 0
   repeatCount: 1
-  repeatInterval: 0.1
-  shape: 0
+  repeatInterval: 0.5
+  shape: 2
   radius: 2
   boxSize: {x: 2, y: 2, z: 2}
   coneAngle: 45
-  coneDistance: 3
-  offset: {x: 0, y: 0, z: 1}
+  coneDistance: 10
+  offset: {x: 0, y: 0, z: 0}
   isProjectile: 0
   projectileSpeed: 10
   projectileRigidbody: {fileID: 0}

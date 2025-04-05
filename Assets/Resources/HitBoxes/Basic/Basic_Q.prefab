@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1906828448074875869
+--- !u!1 &4430192850917587048
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8335368343326445106}
+  - component: {fileID: 9199349638820342327}
   m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -16,22 +16,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8335368343326445106
+--- !u!4 &9199349638820342327
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1906828448074875869}
+  m_GameObject: {fileID: 4430192850917587048}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 1.4}
+  m_LocalPosition: {x: 0, y: 1.41, z: 1.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4558437537526522747}
+  m_Father: {fileID: 34421440711355139}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8628970951321349092
+--- !u!1 &8791580168348741197
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -39,38 +39,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4558437537526522747}
-  - component: {fileID: 9114063251062215794}
+  - component: {fileID: 34421440711355139}
+  - component: {fileID: 2072185349234563312}
   m_Layer: 6
-  m_Name: Basic_Attack
-  m_TagString: PlayerHitBox
+  m_Name: Basic_Q
+  m_TagString: PlayerHitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4558437537526522747
+--- !u!4 &34421440711355139
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8628970951321349092}
+  m_GameObject: {fileID: 8791580168348741197}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8335368343326445106}
+  - {fileID: 9199349638820342327}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9114063251062215794
+--- !u!114 &2072185349234563312
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8628970951321349092}
+  m_GameObject: {fileID: 8791580168348741197}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9c855a064373914b8d3c6a9422ab230, type: 3}
@@ -78,16 +78,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   duration: 0.1
-  followCaster: 1
+  followCaster: 0
   startDelay: 0
   repeatCount: 1
-  repeatInterval: 0
+  repeatInterval: 0.1
   shape: 0
-  radius: 1
+  radius: 2
   boxSize: {x: 2, y: 2, z: 2}
   coneAngle: 45
   coneDistance: 3
-  offset: {x: 0, y: 1.2, z: 1}
+  offset: {x: 0, y: 0, z: 1}
   isProjectile: 0
   projectileSpeed: 10
   projectileRigidbody: {fileID: 0}
