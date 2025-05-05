@@ -53705,6 +53705,7 @@ MonoBehaviour:
   isProjectile: 0
   projectileSpeed: 10
   projectileRigidbody: {fileID: 0}
+  secondaryHitboxPrefab: {fileID: 0}
   useMousePosition: 1
   mouseGroundMask:
     serializedVersion: 2
@@ -60475,6 +60476,18 @@ PrefabInstance:
     - target: {fileID: 198335885103155472, guid: 57cbcd46639ac5c459b1860de28480f0, type: 3}
       propertyPath: simulationSpeed
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198335885103155472, guid: 57cbcd46639ac5c459b1860de28480f0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198335885103155472, guid: 57cbcd46639ac5c459b1860de28480f0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.02771587
+      objectReference: {fileID: 0}
+    - target: {fileID: 198335885103155472, guid: 57cbcd46639ac5c459b1860de28480f0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198517173316420940, guid: 57cbcd46639ac5c459b1860de28480f0, type: 3}
       propertyPath: lengthInSec
