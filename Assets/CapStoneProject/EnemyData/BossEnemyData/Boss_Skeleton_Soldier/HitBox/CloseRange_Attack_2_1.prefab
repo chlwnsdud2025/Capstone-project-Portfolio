@@ -49,12 +49,12 @@ MonoBehaviour:
   startDelay: 0
   repeatCount: 1
   repeatInterval: 0
-  shape: 0
-  radius: 2
-  boxSize: {x: 3, y: 2, z: 3}
-  coneAngle: 240
-  coneDistance: 4.8
-  offset: {x: 0, y: 1, z: 1}
+  shape: 1
+  radius: 0
+  boxSize: {x: 2, y: 2, z: 2}
+  coneAngle: 0
+  coneDistance: 0
+  offset: {x: 0, y: 1.5, z: 3}
   isProjectile: 0
   projectileSpeed: 10
   projectileRigidbody: {fileID: 0}
