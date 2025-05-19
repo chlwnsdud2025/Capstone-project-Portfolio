@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7736908661702863509}
-  - component: {fileID: 2011100394198995080}
+  - component: {fileID: 7401996531426877083}
   m_Layer: 9
-  m_Name: JumpAttack
+  m_Name: JumpAttackHitboxPrefab
   m_TagString: EnemyHitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2011100394198995080
+--- !u!114 &7401996531426877083
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -52,10 +52,11 @@ MonoBehaviour:
   shape: 2
   radius: 2
   boxSize: {x: 2, y: 2, z: 2}
-  coneAngle: 45
-  coneDistance: 3
-  offset: {x: 0, y: 0, z: 1}
+  coneAngle: 58
+  coneDistance: 12
+  hitboxOffset: {x: 0, y: 0, z: 1}
   effectPrefab: {fileID: 7311794361243824863, guid: f02ddba40f60e08458f6c1cc83f73c68, type: 3}
+  effectOffset: {x: 0, y: 0, z: 2}
   effectDuration: 2
   followCaster: 0
   drawGizmos: 1
