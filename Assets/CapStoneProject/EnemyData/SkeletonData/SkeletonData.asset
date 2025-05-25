@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: SkeletonData
   m_EditorClassIdentifier: 
   enemyName: Skeleton
+  enemyLevel: 0
+  enemyTag: 
+  animatorController: {fileID: 9100000, guid: 5574601b0409e2d4fa0347880fd051bb, type: 2}
   maxHP: 50
   moveSpeed: 2
   attackPower: 10
@@ -20,6 +23,6 @@ MonoBehaviour:
   attackRange: 1
   detectRadius: 6
   returnDistance: 15
-  returnSpeedMultiplier: 0.1
+  returnSpeedMultiplier: 2
   expDrop: 10
-  animatorController: {fileID: 9100000, guid: 5574601b0409e2d4fa0347880fd051bb, type: 2}
+  dropItems: []
